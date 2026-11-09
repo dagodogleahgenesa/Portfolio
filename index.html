@@ -1,0 +1,374 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Leah's Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body id="top">
+
+    <!-- NAVIGATION -->
+    <header class="navbar">
+        <a class="logo">L<span>G</span></a>
+
+        <nav>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#achievements">Achievements</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- HOME -->
+    <section class="hero" id="home">
+        <div class="hero-content">
+            <p class="hello">Hello,</p>
+            <h1>I'M <span>LEAH</span></h1>
+            <h3>BS Information Technology Student</h3>
+            <p class="keywords">Learning • Hardworking • Growing</p>
+
+            <p class="intro">
+                I am a passionate student who enjoys learning new things,
+                developing my skills, and expressing my ideas through my work. 
+                I aim to gain more experience, develop my abilities, and apply my knowledge to real-world opportunities.
+            </p>
+
+            <a href="resume.html" class="button">VIEW RESUME</a>
+        </div>
+    </section>
+
+    <!-- ABOUT ME -->
+    <section class="section" id="about">
+        <h2>♙ ABOUT <span class="highlight-title">ME</span></h2>
+
+        <div class="about-grid">
+            <div class="personal-info">
+                <p><strong>Name</strong><span>: Leah Genesa L. Dagodog</span></p>
+                <p><strong>Age</strong><span>: 19</span></p>
+                <p><strong>Location</strong><span>: Bajumpandan, Dumaguete City</span></p>
+                <p><strong>School</strong><span>: Metro Dumaguete College</span></p>
+                <p><strong>Course</strong><span>: BS Information Technology</span></p>
+                <p><strong>Religion</strong><span>: Iglesia Ni Cristo</span></p>
+                <p><strong>Talent</strong><span>: Creativity</span></p>
+                <p><strong>Fun Fact</strong><span>: I can eat 3x spicy Samyang</span></p>
+            </div>
+
+            <img
+                class="about-photo"
+                src="kani.jpg"
+                alt="About me photo">
+        </div>
+    </section>
+
+    
+<!-- ACHIEVEMENTS -->
+<section class="section" id="achievements">
+
+    <h2>🏆 MY <span class="highlight-title">ACHIEVEMENTS</span></h2>
+
+    <div class="achievement-grid">
+
+        <div class="slider">
+
+            <!-- Select which picture is visible -->
+            <input type="radio" name="slide" id="slide1" checked>
+            <input type="radio" name="slide" id="slide2">
+            <input type="radio" name="slide" id="slide3">
+            <input type="radio" name="slide" id="slide4">
+            <input type="radio" name="slide" id="slide5">
+            <input type="radio" name="slide" id="slide6">
+
+            <div class="slides">
+
+                <!-- PICTURE 1 -->
+                <div class="slide">
+                    <img src="1st achievement.png" alt="First Achievement">
+
+                    <label for="slide6" class="arrow left">&#10094;</label>
+                    <label for="slide2" class="arrow right">&#10095;</label>
+                </div>
+
+                <!-- PICTURE 2 -->
+                <div class="slide">
+                    <img src="2nd achievement.jpg" alt="Second Achievement">
+
+                    <label for="slide1" class="arrow left">&#10094;</label>
+                    <label for="slide3" class="arrow right">&#10095;</label>
+                </div>
+
+                <!-- PICTURE 3 -->
+                <div class="slide">
+                    <img src="3rd achievement.jpg" alt="Third Achievement">
+
+                    <label for="slide2" class="arrow left">&#10094;</label>
+                    <label for="slide4" class="arrow right">&#10095;</label>
+                </div>
+
+                <!-- PICTURE 4 -->
+                <div class="slide">
+                    <img src="achieve4.jpg" alt="Fourth Achievement">
+
+                    <label for="slide3" class="arrow left">&#10094;</label>
+                    <label for="slide5" class="arrow right">&#10095;</label>
+                </div>
+
+                <!-- PICTURE 5 -->
+                <div class="slide">
+                    <img src="achieve5.jpg" alt="Fifth Achievement">
+
+                    <label for="slide4" class="arrow left">&#10094;</label>
+                    <label for="slide6" class="arrow right">&#10095;</label>
+                </div>
+
+                <!-- PICTURE 6 -->
+                <div class="slide">
+                    <img src="achieve6.jpg" alt="Sixth Achievement">
+
+                    <label for="slide5" class="arrow left">&#10094;</label>
+                    <label for="slide1" class="arrow right">&#10095;</label>
+                </div>
+
+            </div>
+
+            <!-- CLICKABLE SLIDE DOTS -->
+            <div class="slide-dots">
+                <label for="slide1" aria-label="Show picture 1"></label>
+                <label for="slide2" aria-label="Show picture 2"></label>
+                <label for="slide3" aria-label="Show picture 3"></label>
+                <label for="slide4" aria-label="Show picture 4"></label>
+                <label for="slide5" aria-label="Show picture 5"></label>
+                <label for="slide6" aria-label="Show picture 6"></label>
+            </div>
+
+        </div>
+
+        <p class="achievement-text">
+            I am proud of the progress I have made in my studies and
+            personal life. I have completed different school projects
+            and activities that helped me improve my skills and confidence.
+            I have also learned how to work well with others and manage
+            my time responsibly. Every challenge and experience has taught
+            me to become more patient, creative, and determined.
+            These achievements motivate me to keep learning, improving,
+            and reaching my future goals. I believe that every small
+            achievement is an important step toward reaching my dreams
+            and becoming a successful web developer.
+        </p>
+
+    </div>
+</section>
+
+
+    <!-- SKILLS -->
+    <section class="section" id="skills">
+        <h2>⚙ MY <span class="highlight-title">SKILLS</span></h2>
+
+        <div class="skills-grid">
+            <p class="skills-description">
+                I have skills in CSS, HTML, PHP, and Python. I use HTML to
+                create webpages, CSS to design and style them, Python to write
+                simple programs, and PHP to add functions to websites.
+                I continue practicing these skills to improve my knowledge
+                in web development and programming.
+            </p>
+
+            <div class="skills-list">
+
+                <!-- CSS -->
+
+                <div class="skill">
+
+                   <div class="skill-logo">
+                    <img src="css.png" alt="CSS">
+                   </div>
+
+                    <h3>CSS</h3>
+
+                    <p>
+                        Cascading Style Sheets
+                    </p>
+
+                </div>
+
+
+                <!-- HTML -->
+
+                <div class="skill">
+
+                    <div class="skill-logo">
+                     <img src="html.jpg" alt="HTML">
+                    </div>
+
+                    <h3>HTML</h3>
+
+                    <p>
+                        HyperText Markup Language
+                    </p>
+
+                </div>
+
+
+                <!-- PHP -->
+
+                <div class="skill">
+
+                    <div class="skill-logo">
+                     <img src="php.png" alt="PHP">
+                    </div>
+
+                    <h3>PHP</h3>
+
+                    <p>
+                        Hypertext Preprocessor
+                    </p>
+
+                </div>
+
+
+                <!-- PYTHON -->
+
+                <div class="skill">
+
+                   <div class="skill-logo">
+                    <img src="python.png" alt="Python">
+                   </div>
+
+                    <h3>PYTHON</h3>
+
+                    <p>
+                        Programming Language
+                    </p>
+
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- PROJECTS -->
+    <section class="section" id="projects">
+        <h2>⚒ MY <span class="highlight-title">PROJECTS</span></h2>
+
+        <div class="project-grid">
+
+            <div class="project-card">
+                <img
+                    src="vehicle.png"
+                >
+                <h3>Vehicle System</h3>
+                <p>A website for vehicle information.</p>
+            </a>
+            </div>
+
+            <div class="project-card">
+                <img
+                    src="portfolio.png"
+                >
+                <h3>Portfolio</h3>
+                <p>A website that shows my personal information.</p>
+            </a>
+            </div>
+
+            <div class="project-card">
+                <img
+                    src="database.png"
+                >
+                <h3>Database</h3>
+                <p>A project for storing and managing information.</p>
+            </a>
+            </div>
+
+            <div class="project-card">
+                <img
+                    src="autocad.png"
+                >
+                <h3>AutoCAD</h3>
+                <p>A project for technical drawings and designs.</p>
+            </a>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section class="section" id="contact">
+        <h2>☎ CONTACT <span class="highlight-title">ME</span></h3></span></h2>
+
+        <div class="contact-grid">
+
+            <div class="contact-item">
+                <span class="contact-icon">📩</span>
+                <div>
+                    <h3>Email</h3>
+                    <p>
+                        dagodog.leahgenesa@mdci.edu.ph
+                    </p>
+                </div>
+            </div>
+
+            <div class="contact-item">
+                <span class="contact-icon">📞</span>
+                <div>
+                    <h3>Phone</h3>
+                    <p> 09361111111</p>
+                </div>
+            </div>
+
+            <div class="contact-item">
+                <span class="contact-icon">📍</span>
+                <div>
+                    <h3>Location</h3>
+                    <p>Bajumpandan, Dumaguete City</p>
+                </div>
+            </div>
+
+        </div>
+
+<!-- SOCIAL MEDIA LINKS -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+<div class="social-links">
+
+    <!-- Instagram -->
+    <a class="social instagram"
+       href="https://www.instagram.com/gen_esaxj/"
+       target="_blank"
+       rel="noopener noreferrer"
+       aria-label="Instagram">
+        <i class="fa-brands fa-instagram"></i>
+    </a>
+
+    <!-- Facebook -->
+    <a class="social facebook"
+       href="https://www.facebook.com/Genesaxj"
+       target="_blank"
+       rel="noopener noreferrer"
+       aria-label="Facebook">
+        <i class="fa-brands fa-facebook-f"></i>
+    </a>
+
+    <!-- GitHub -->
+    <a class="social github"
+       href="https://github.com/dagodogleahgenesa"
+       target="_blank"
+       rel="noopener noreferrer"
+       aria-label="GitHub">
+        <i class="fa-brands fa-github"></i>
+    </a>
+
+</div>
+
+    </section>
+
+    <!-- CLICK FOOTER TO RETURN TO TOP -->
+    <a class="footer" href="#top" title="Back to top">
+        @2026 Leah Genesa L. Dagodog. All rights reserved. 
+    </a>
+
+</body>
+</html>
